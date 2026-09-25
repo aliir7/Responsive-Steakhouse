@@ -147,8 +147,8 @@ sr.reveal(".ingredients__images > *", {
 sr.reveal(".ingredients__img-1", { delay: 600, distance: "0", scale: 1.5 });
 
 /* Contact */
-sr.reveal("contact__map", { origin: "left" });
-sr.reveal("contact__content", { origin: "right" });
+sr.reveal(".contact__map", { origin: "left" });
+sr.reveal(".contact__content", { origin: "right" });
 
 /* Footer */
 sr.reveal(".reservation__content, .footer__container");
